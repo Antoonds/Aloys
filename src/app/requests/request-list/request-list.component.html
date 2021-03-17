@@ -1,0 +1,9 @@
+<div class="list-group">
+  <a
+    [routerLink]="[fillIn.id]"
+    routerLinkActive="active"
+    *ngFor="let fillIn of (fillIns | async ).fillIns"
+     class="list-group-item custom list-group-item-action">
+    {{fillIn.startDate | date }}
+  </a>
+</div>

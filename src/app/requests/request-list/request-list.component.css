@@ -1,0 +1,25 @@
+.custom {
+  border-bottom: 5px solid;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to left, #748CAB , #748CAB);
+  text-align: center;
+  background-color: transparent;
+}
+
+.custom:hover {
+  border-bottom: 5px solid;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to left, #C73D1B, #2F307F);
+  font-weight: bolder;
+}
+
+.p{
+  display: inline;
+  margin: 0.1rem;
+}
